@@ -1,0 +1,11 @@
+LeaseID,TenantName,PropertyName,MonthlyRent,SquareFeet,StartDate,EndDate,Status
+1,Loblaw,Northgate,145000,35000,2019-01-01,2029-12-31,Active
+2,Shoppers,Northgate,22500,4500,2020-06-01,2025-05-31,Active
+3,Starbucks,Northgate,8500,1200,2022-03-01,2027-02-28,Active
+4,Apple,Northgate,35000,3200,2023-09-15,2028-09-14,Active
+5,Canadian Tire,Riverside Commons,95000,28000,2018-09-01,2028-08-31,Active
+6,Winners,Riverside Commons,32000,12000,2020-04-15,2025-04-14,Active
+7,Cineplex,Riverside Commons,65000,18000,2019-10-01,2026-09-30,Active
+8,Lululemon,Riverside Commons,28000,2800,2022-08-01,2027-07-31,Active
+9,LCBO,Parkview,18000,4500,2019-06-01,2024-05-31,Expired
+10,Tim Hortons,Parkview,7500,1100,2020-01-15,2025-01-14,Active

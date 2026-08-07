@@ -1,0 +1,21 @@
+LeaseID,TenantName,PropertyName,City,Industry,MonthlyRent,SquareFeet,StartDate,EndDate,Status
+1,Loblaw,Northgate,Toronto,Grocery,145000,35000,2019-01-01,2029-12-31,Active
+2,Shoppers,Northgate,Toronto,Pharmacy,22500,4500,2020-06-01,2025-05-31,Active
+3,Starbucks,Northgate,Toronto,Food Service,8500,1200,2022-03-01,2027-02-28,Active
+4,Apple,Northgate,Toronto,Electronics,35000,3200,2023-09-15,2028-09-14,Active
+5,Lululemon,Northgate,Toronto,Retail,18500,2400,2021-11-01,2026-10-31,Active
+6,Canadian Tire,Riverside Commons,Mississauga,Retail,95000,28000,2018-09-01,2028-08-31,Active
+7,Winners,Riverside Commons,Mississauga,Retail,32000,12000,2020-04-15,2025-04-14,Active
+8,Cineplex,Riverside Commons,Mississauga,Entertainment,65000,18000,2019-10-01,2026-09-30,Active
+9,Indigo,Riverside Commons,Mississauga,Retail,18500,3500,2021-02-01,2026-01-31,Active
+10,Aritzia,Riverside Commons,Mississauga,Retail,28000,2800,2022-08-01,2027-07-31,Active
+11,H&M,Riverside Commons,Mississauga,Retail,25500,3100,2023-04-15,2028-04-14,Active
+12,LCBO,Parkview,Toronto,Liquor,18000,4500,2019-06-01,2024-05-31,Expired
+13,Tim Hortons,Parkview,Toronto,Food Service,7500,1100,2020-01-15,2025-01-14,Active
+14,GoodLife,Parkview,Toronto,Fitness,22500,12000,2021-05-01,2026-04-30,Active
+15,Modern Dental,Parkview,Toronto,Healthcare,12500,1800,2022-11-01,2027-10-31,Active
+16,Loblaw,Lakeshore Village,Toronto,Grocery,78000,22000,2018-04-01,2028-03-31,Active
+17,Shoppers,Lakeshore Village,Toronto,Pharmacy,15500,2800,2021-01-01,2026-12-31,Active
+18,Starbucks,Lakeshore Village,Toronto,Food Service,9500,1400,2022-06-01,2027-05-31,Active
+19,Roots,Lakeshore Village,Toronto,Retail,14500,2200,2023-08-15,2028-08-14,Active
+20,Canadian Tire,Highland Crossing,Vaughan,Retail,105000,30000,2018-11-01,2028-10-31,Active

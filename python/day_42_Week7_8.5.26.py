@@ -116,11 +116,23 @@ for l in status_leases:
     leasecount = l["PropertyName"]
     if leasecount not in numleasebyprop:
         numleasebyprop[leasecount] = 0
-    numleasebyprop[leasecount] = len(l["TenantName"])
+    numleasebyprop[leasecount] += 1
+
+topleaseprop = {}
+
+for l in status_leases:
+    leasecountname = l["PropertyName"]
+    if leasecountname not in topleaseprop:
+        topleaseprop[leasecountname] = []
+    topleaseprop[leasecountname].append((l["TenantName"], l["MonthlyRent"]))
+
 
 
 print("\n Property Rents")
 for prop, rent in toppropsorted:
-    lcbp = numleasebyprop[prop]    
-    print(f"Property Name: {prop}, Monthly Rent Total: {rent}, Number of leases: {lcbp}")
+    lcbp = numleasebyprop[prop]
+    tlps = max(topleaseprop[prop], key=lambda item: item[1])
+    print(f"Property Name: {prop}, Monthly Rent Total: {rent}, Number of leases: {lcbp} {tlps}")
+
+
 

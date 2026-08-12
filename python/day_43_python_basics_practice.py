@@ -97,8 +97,8 @@
 #A **list** holds multiple values in order. 
 # You make one with square brackets `[ ]`, values separated by commas.
 
-rents = [5000, 8000, 3000]
-print(rents)
+#rents = [5000, 8000, 3000]
+#print(rents)
 
 #> Think of a list as a single column in Excel, 
 # or the set of rows a SQL query returns. 

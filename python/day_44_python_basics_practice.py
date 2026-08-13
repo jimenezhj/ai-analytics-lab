@@ -134,18 +134,36 @@
 #here is the pattern to get total per group. You use a dict where the "key" is the group
 # and value is that group's running total
 
-leases = [
-    {"tenant":"loblaw", "rent": 1000},
-    {"tenant": "shoppers", "rent": 2000},
-    {"tenant": "loblaw", "rent": 3000}
-]
+#leases = [
+#    {"tenant":"loblaw", "rent": 1000},
+#    {"tenant": "shoppers", "rent": 2000},
+#    {"tenant": "loblaw", "rent": 3000}
+#]
+#
+#totals = {}
+#
+#for l in leases: #counting 3 dicts, so should be 3 go arounds
+#    tenant = l["tenant"]
+#    if tenant not in totals:
+#        totals[tenant] = 0
+#    totals[tenant] += l["rent"]
+#print(totals)
 
-totals = {}
+# totals = {} > start with an empty dict no groups yet
+# for each row in leases, pull out the tenant (l["tenant"]) (this is the group)
+# if tenant not in totals: have i seen this tenant before?
+# totals[tenant] = 0 > create a spot if you havent seen them starting at 0
+# totals[tenant] += l["rent"] - look for the key rent and add its amount as a running total to the tenant key
 
-for l in leases: #counting 3 dicts, so should be 3 go arounds
-    tenant = l["tenant"]
-    if tenant not in totals:
-        totals[tenant] = 0
-    totals[tenant] += l["rent"]
-print(totals)
+# it will find loblaw twice, add the rent for both instances and shoppers shows up once
+
+#countoftenants = {}
+#
+#for l in leases:
+#    count = l["tenant"]
+#    if count not in countoftenants:
+#        countoftenants[count] = 0
+#    countoftenants[count] += 1
+#print(countoftenants)
+
 
